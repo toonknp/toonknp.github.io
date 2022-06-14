@@ -44,3 +44,45 @@
     padding: 8px 0px;
     margin-top: 24px;
   }
+
+  #Information {
+    display: flex;
+  }
+  #information-main{
+    padding: 32px 24px;
+    background-color: white;
+  }
+  #information-main img {
+    width: 60%;
+  }
+  #information-main-text {
+    max-width: 60%;
+  }
+  #information-main-text h1{
+    padding: 32px 24px;
+    font-size: 20px;
+    max-width: 60%;
+  }
+  #information-sub{
+    display: flex;
+    flex-direction: column;
+  }
+
+#start-learning {
+  text-align: center;
+  background-color: #d7d7d7;
+}
+
+.course .course-pic{
+  display: flex;
+  align-content: center;
+}
+
+#thesis-exhibit {
+  text-align: center;
+  background-color: white;
+}
+
+#thesis-exhibit-content {
+  float: left;
+}
